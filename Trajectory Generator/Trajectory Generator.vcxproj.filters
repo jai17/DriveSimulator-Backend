@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{caa3accc-44c1-4572-8fca-7b0a9a5f297e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Path">
+      <UniqueIdentifier>{ba830842-6b42-4a0c-99ae-99b13c91c649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PurePursuit">
+      <UniqueIdentifier>{0997b60a-75b7-4cc1-9ae0-9b968fc3c145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VelocityGenerator">
+      <UniqueIdentifier>{a83bd714-f54d-4b5b-9cb3-7a85fb80d147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{e98b2e68-f2e7-4930-b395-5ecd466a3bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Path">
+      <UniqueIdentifier>{0df77ea9-c0c6-4b50-b44f-8bd7acf1c0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PurePursuit">
+      <UniqueIdentifier>{35de0aad-7e24-4a46-b9b3-93a77c008c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VelocityGenerator">
+      <UniqueIdentifier>{4fab0f55-9d15-4ec6-8383-8ad7398a418f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplineContainer.h">
+      <Filter>Header Files\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="robot_constants.h">
+      <Filter>Header Files\VelocityGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="trajectoryState.h">
+      <Filter>Header Files\VelocityGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files\VelocityGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaPosition.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Rotation.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="PurePursuitController.h">
+      <Filter>Header Files\PurePursuit</Filter>
+    </ClInclude>
+    <ClInclude Include="PathGenerator.h">
+      <Filter>Header Files\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="QuinticSpline.h">
+      <Filter>Header Files\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionProfiling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaPosition.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotation.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="trajectoryState.cpp">
+      <Filter>Source Files\VelocityGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files\VelocityGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="PurePursuitController.cpp">
+      <Filter>Source Files\PurePursuit</Filter>
+    </ClCompile>
+    <ClCompile Include="PathGenerator.cpp">
+      <Filter>Source Files\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="QuinticSpline.cpp">
+      <Filter>Source Files\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="SplineContainer.cpp">
+      <Filter>Source Files\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionProfiling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
